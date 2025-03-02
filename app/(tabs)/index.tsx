@@ -5,6 +5,7 @@ import ImageViewer from "@/components/ImageViewer";
 const PlaceHolderImage = require("@/assets/images/background-image.png");
 
 export default function Index() {
+    // @ts-ignore
     return (
         <View style={styles.container}>
             <View style={styles.imageContainer}>
